@@ -3,7 +3,7 @@ import {Command} from '../config/Command';
 
 import Nasa from '../controller/nasaController';
 
-const heur: number = 1000 * 60 * 60;
+const heur: number = 3000;
 const jours: number = 1000 * 60 * 60 * 24;
 
 export const NasaPicture: Command = {
