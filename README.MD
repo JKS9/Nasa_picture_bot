@@ -58,4 +58,4 @@ channel discord
 
 ## Result
 
-![result bot message](http://url/to/img.png)
+![result bot](https://github.com/JKS9/Nasa_picture_bot/blob/main/src/assets/readme/result.PNG)
