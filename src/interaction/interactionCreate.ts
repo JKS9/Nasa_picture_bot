@@ -22,9 +22,6 @@ const handleSlashCommand = async (
     interaction.followUp({content: BotError});
     return;
   }
-
-  console.log('interaction', interaction);
-
   await interaction.deferReply();
 
   if (interaction.user.id != process.env.SECRET_AUTHOR) {
