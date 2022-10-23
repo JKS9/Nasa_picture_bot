@@ -12,6 +12,7 @@ export const NasaPicture: Command = {
   type: 1,
   run: async (client: Client, interaction: CommandInteraction) => {
     await Nasa(interaction);
+    console.log('looping not looping');
 
     setInterval(() => {
       Nasa(interaction);
