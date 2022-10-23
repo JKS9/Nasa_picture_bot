@@ -1,0 +1,26 @@
+{
+  "name": "nasa_bot_v2",
+  "version": "1.0.0",
+  "description": "bot discord Nasa picture",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Etienne juzans (JKS9)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "keywords": [],
+  "dependencies": {
+    "axios": "^1.1.3",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3"
+  }
+}
