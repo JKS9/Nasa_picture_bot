@@ -15,6 +15,7 @@ export const NasaPicture: Command = {
 
     setInterval(() => {
       Nasa(interaction);
+      console.log('looping');
     }, heur);
   },
 };
